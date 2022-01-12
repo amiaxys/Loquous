@@ -21,7 +21,7 @@ module.exports = {
             )
             .setImage('https://cdn.pixabay.com/photo/2015/08/11/22/43/teal-885329_1280.png')
             .setTimestamp()
-            .setFooter({ text: 'A note down here', iconURL: 'https://cdn.pixabay.com/photo/2014/06/16/23/40/teal-370129_1280.png' });
+            .setFooter({ text: 'A note down here' });
 
         await interaction.reply({ embeds: [exampleEmbed] });
 	},
