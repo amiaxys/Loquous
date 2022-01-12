@@ -9,7 +9,7 @@ module.exports = {
 		const exampleEmbed = new MessageEmbed()
             .setColor('#04BFBF')
             .setTitle('Template Title')
-            .setAuthor({ name: 'Ami', iconURL: 'https://cdn.pixabay.com/photo/2014/06/16/23/40/teal-370129_1280.png' })
+            .setAuthor({ name: `${interaction.user.tag}`, iconURL: 'https://cdn.pixabay.com/photo/2014/06/16/23/40/teal-370129_1280.png' })
             .setDescription('Some description here')
             .setThumbnail('https://cdn.pixabay.com/photo/2015/08/11/22/43/teal-885329_1280.png')
             .addFields(
